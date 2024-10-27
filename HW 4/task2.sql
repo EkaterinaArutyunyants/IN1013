@@ -1,0 +1,36 @@
+﻿CREATE TABLE Sheet1(Column_1 VARCHAR(10));
+INSERT INTO Sheet1 (Column_1) VALUES 
+('queries.sql'),
+('-- createCREATE TABLE PetPet ( PetId INTEGER PRIMARY KEY, PetName VARCHAR NOT NULL, PetOwner VARCHAR NOT NULL, PetSpecies VARCHAR NOT NULL, PetGender VARCHAR NOT NULL, PetBirth DATE NOT NULL, PetDeath DATE NOT NULL);CREATE TABLE PetEvent ( PetEventId INTEGER PRIMARY KEY, PetName VARCHAR NOT NULL, EventDate DATE NOT NULL, EventType VARCHAR NOT NULL, Remark VARCHAR NOT NULL);
+INSERT INTO PetPet VALUES (0001, "Fluffy", "Harold", "cat", "F", "1993-02-04", NULL);INSERT INTO PetPet VALUES (0002, "Claws", "Gwen", "cat", "M", "1994-03-17", NULL);INSERT INTO PetPet VALUES (0003, "Buffy", "Harold", "dog", "F", "1989-05-13", NULL);INSERT INTO PetPet VALUES (0004, "Fang", "Benny", "dog", "M", "1990-08-27", NULL);INSERT INTO PetPet VALUES (0005, "Bowser", "Diane", "dog", "M", "1979-08-31", "1995-07-29");INSERT INTO PetPet VALUES (0006, "Chirpy", "Gwen", "bird", "F", "1998-09-11", NULL);INSERT INTO PetPet VALUES (0007, "Whistler", "Gwen", "bird", NULL, "1997-12-09", NULL);INSERT INTO PetPet VALUES (0008, "Slim", "Benny", "snake", "M", "1996-04-29", NULL);INSERT INTO PetPet VALUES (0009, 'Puffball','Diane','hamster','F','1999-03-30',NULL);
+INSERT INTO PetEvent VALUES (0001, "Fluffy", "1995-05-15", "litter", "4 kittens, 3 female, 1 male"),INSERT INTO PetEvent VALUES (0002, "Buffy", "1993-06-23", "litter", "5 puppies, 2 female, 3 male"),INSERT INTO PetEvent VALUES (0003, "Buffy", "1994-06-19", "litter", "3 puppies, 3 female"),INSERT INTO PetEvent VALUES (0004, "Chirpy", "1999-03-21", "vet", "needed beak straightened"),INSERT INTO PetEvent VALUES (0005, "Slim", "1997-08-03", "vet", "broken rib"),INSERT INTO PetEvent VALUES (0006, "Slim", "1997-10-04", "vet", "broken tooth"),INSERT INTO PetEvent VALUES (0007, "Bowser", "1991-10-12", "kennel", NULL),INSERT INTO PetEvent VALUES (0008, "Fang", "1991-10-12", "kennel", NULL),INSERT INTO PetEvent VALUES (0009, "Fang", "1998-08-28", "birthday", "Gave him a new chew toy"),INSERT INTO PetEvent VALUES (0010, "Claws", "1998-03-17","birthday", "Gave him a new flea collar"),INSERT INTO PetEvent VALUES (0011, "Whistler", "1998-12-09", "birthday", "First birthday");'),
+('created 1 minute ago'),
+(''),
+('MySQL online editor'),
+('Write, Run & Share MySQL queries online using OneCompiler's MySQL online editor and compiler for free. It's one of the robust, feature-rich online editor and compiler for MySQL. Getting started with the OneCompiler's MySQL editor is really simple and pretty fast. The editor shows sample boilerplate code when you choose language as 'MySQL' and start writing queries to learn and test online without worrying about tedious process of installation.'),
+('About MySQL'),
+('MySQL is a open-source, free and very popular relational database management system which is developed, distributed and supported by Oracle corporation.'),
+('Key Features:'),
+('Open-source relational database management systems.'),
+('Reliable, very fast and easy to use database server.'),
+('Works on client-server model.'),
+('Highly Secure and Scalable'),
+('High Performance'),
+('High productivity as it uses stored procedures, triggers, views to write a highly productive code.'),
+('Supports large databases efficiently.'),
+('Supports many operating systems like Linux*,CentOS*, Solaris*,Ubuntu*,Windows*, MacOS*,FreeBSD* and others.'),
+('Syntax help'),
+('Commands'),
+('1. CREATE'),
+('Single-Line Comments:'),
+('1. INSERT'),
+('INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, value3, ...);Note: Column names are optional.'),
+('Example'),
+('1. CREATE INDEX'),
+('CREATE INDEX index_name on table_name(column_name);
+To Create Unique index:'),
+('2. DROP INDEX'),
+('1. Create a View'),
+('1. Create a Trigger'),
+('1. Create a Stored Procedure'),
+('1. INNER JOIN');
